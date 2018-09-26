@@ -1,7 +1,7 @@
-input("Note: you must do the conversion from cm to m before calculation")
+
 a = float(input("Enter your Heigh: "))
 b = float(input("Enter your weight: "))
-
+a = a/100
 BMI = b/(a*a)
 print("Your BMI:",BMI)
 if BMI < 16:
